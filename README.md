@@ -1,1 +1,1 @@
-# qbot
+# qbot by qBotDevs
