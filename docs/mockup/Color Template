@@ -1,0 +1,185 @@
+#Color Template for qBOT splash page
+
+<html>
+<header>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" crossorigin="anonymous">
+
+</header>
+<body>
+<div class="row">
+    <div class="col-sm-2" align="center">
+        <div id="box-1"></div>
+        <div id="box-2"></div>
+        <div id="box-3"></div>
+        <h1>1</h1>
+     
+    </div>
+    <div class="col-sm-2" align="center">
+        <div id="box-4"></div>
+        <div id="box-5"></div>
+        <div id="box-6"></div>
+        <h1>2</h1>
+     
+    </div>
+    <div class="col-sm-2" align="center">
+        <div id="box-7"></div>
+        <div id="box-8"></div>
+        <div id="box-9"></div>
+        <h1>3</h1>
+     
+    </div>
+    <div class="col-sm-2" align="center">
+        <div id="box-10"></div>
+        <div id="box-11"></div>
+        <div id="box-12"></div>
+        <h1>4</h1>
+     
+    </div>
+    <div class="col-sm-2" align="center">
+        <div id="box-13"></div>
+        <div id="box-14"></div>
+        <div id="box-15"></div>
+        <h1>5</h1>
+     
+    </div>
+    <div class="col-sm-2" align="center">
+        <div id="box-16"></div>
+        <div id="box-17"></div>
+        <div id="box-18"></div>
+        <h1>6</h1>
+     
+    </div>
+    
+    
+</div>
+<div class="row">
+    <div class="col-sm-4" align="center" id="logo1">
+        
+    </div>
+    <div class="col-sm-4" align="center" id="logo2">
+    
+    </div>
+    <div class="col-sm-4" align="center" id="logo3">
+    
+    </div>
+</div>
+    
+</body>
+
+
+<style>
+    #box-1 {
+        background-color: #424242;
+        height: 30px;
+        width: 100px;
+        
+    }
+    #box-2 {
+        background-color: #fbc02d;
+        height: 30px;
+        width: 100px;
+        
+    }
+    #box-3 {
+        background-color: #ffeb3b;
+        height: 30px;
+        width: 100px;
+        
+    }
+    #box-4 {
+        background-color: #424242;
+        height: 30px;
+        width: 100px;
+        
+    }
+    #box-5 {
+        background-color: #f50057;
+        height: 30px;
+        width: 100px;
+        
+    }
+    #box-6 {
+        background-color: #f48fb1;
+        height: 30px;
+        width: 100px;
+        
+    }
+    #box-7 {
+        background-color: #00acc1;
+        height: 30px;
+        width: 100px;
+        
+    }
+    #box-8 {
+        background-color: #007c91;
+        height: 30px;
+        width: 100px;
+        
+    }
+    #box-9 {
+        background-color: #84ffff;
+        height: 30px;
+        width: 100px;
+        
+    }
+    #box-10 {
+        background-color: #f5f5f5;
+        height: 30px;
+        width: 100px;
+        
+    }
+    #box-11 {
+        background-color: #c2c2c2;
+        height: 30px;
+        width: 100px;
+        
+    }
+    #box-12 {
+        background-color: #424242;
+        height: 30px;
+        width: 100px;
+        
+    }
+    #box-13 {
+        background-color: #424242;
+        height: 30px;
+        width: 100px;
+        
+    }
+    #box-14 {
+        background-color: #0288d1;
+        height: 30px;
+        width: 100px;
+        
+    }
+    #box-15 {
+        background-color: #ffeb3b;
+        height: 30px;
+        width: 100px;
+        
+    }
+    #box-16 {
+        background-color: #212121;
+        height: 30px;
+        width: 100px;
+        
+    }
+    #box-17 {
+        background-color: #00e676;
+        height: 30px;
+        width: 100px;
+        
+    }
+    #box-18 {
+        background-color: #b2ff59;
+        height: 30px;
+        width: 100px;
+        
+    }
+    
+</style>
+
+</html>
+Contact GitHub API Training Shop Blog About
+© 2017 GitHub, Inc. Terms Privacy Security Status Help
