@@ -1,0 +1,153 @@
+<html>
+<header>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" crossorigin="anonymous">
+    
+     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+
+</header>
+<body>
+    <div>
+        <h5 style="color:black"> /qBot</h5>
+    </div>
+    <div class="row">
+        <div class="col-sm-6" align="center" id="title">
+            <h1 style="color:black">/qBot</h1>
+            <h4 style="width: 300px" align="left">qBot's specialty is finding answers to all of your coding questions </h4>
+        
+        </div>
+        <div class="col-sm-6" align="center">
+            <img src="https://github.com/diemano/qbot/blob/master/docs/mockup/logo1.jpg?raw=true" id="logo">
+        </div>
+
+    
+    
+    </div>
+    <div style="background-color:#212121">
+  <div class="row" style="margin-left: 125px; margin-right: 125px; margin-top:75px;">
+    
+    <div class="col-lg-4">
+      <div id="section1">
+        <h5>qBot is designed<br>to make your coding <br> queries easier</h5><p>qBot searches an assortment of qualified sources and curates the most pertinent solutions to your coding questions. </p><p>qBot will not always find the exact solution to your question, but qBot will save you time from endlessly searching so that you can get on with your coding.  </p><br>
+        <a href="#" id="link">FIND OUT MORE</a>
+      </div>
+    </div>
+    <div class="col-lg-4">
+      <div id="section2">
+        <h4>SUPPORTED COMMANDS</h4>
+        <p id="link2">LAUNCH</p>
+        <h5>/qbot [query]"..."</h5>
+        <p style="color:black">searches our database for the best answer to your coding question.</p>
+        <h5>/qbot [quick query]"..."</h5>
+        <p style="color:black">searches and returns the top 3 queries from google.</p>
+        <h5>/qbot [koan]</h5>
+        <p style="color:black">/qbot returns a random Zen Koan.<br><br>ko·an<br>
+noun<br><br>
+a paradoxical anecdote or riddle, used in Zen Buddhism to demonstrate the inadequacy of logical reasoning and to provoke *enlightenment.<br><br>*Help our minds with any coding road blocks.  </p>
+        
+          
+      </div>
+    </div>
+    <div class="col-lg-4">
+       <div id="section3">
+      <h4>DESIGNED FOR SLACK</h4>
+        <p style="color:black">Made to run seamlessly in the slack environment.</p>
+        <img src="https://platform.slack-edge.com/img/add_to_slack@2x.png" style="height:30px; position:absolute; top:0px; right:0px; margin-right:20px; margin-top: 10px;">
+      </div>
+    </div>
+   
+  </div>
+</div>
+
+<div class="row" style="height:50; margin-top: 50px;" align="center">
+    <div class="col-sm-4">
+        <h6>Koans from The <a href="https://en.wikipedia.org/wiki/The_Gateless_Gate">Gateless Gate</a></h6>
+    </div>
+    <div class="col-sm-4">
+        <h6>© 2017 Team <a href="https://github.com/diemano/qbot">BotDevs</a></h6>
+    </div>
+    <div class="col-sm-4">
+        <h6>Support <a href="https://www.paypal.me/ChinguCohorts">Chingu</a></h6>
+    </div>
+</div>
+
+
+  
+</body>
+<style>
+#logo {
+    height: 200px;
+    height: 10p;
+}
+#title {
+    width: 10px;
+    height: 1px;
+    
+        
+}
+#section1 {
+    background-color: #424242;
+    height: 550px;
+    margin-right: -11px;
+    margin-left: -11px;
+    border-style: dotted;
+    border-color: white;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+#section2 {
+  background-color: #fbc02d;
+  height: 550px;
+  margin-left: -11px;
+  margin-right: -11px;
+}
+#section3 {
+  background-color: #ffeb3b;
+  height: 550px;
+  margin-left: -11px;
+  margin-right: -11px;
+}
+body {  
+    overflow-x: hidden;    
+}
+
+p,h1,h5 {
+  font-family: Roboto Mono;
+  color: white;
+  margin: 15px;
+}
+h4 {
+  font-family: Roboto Mono;
+  color: black;
+  font-size: 17px;
+  padding: 15px;
+}
+p {
+  font-size: 14px;
+}
+#link {
+ font-family:'Roboto Mono'; 
+  color:white; 
+  margin: 20px; 
+  font-weight: bold;
+  font-size:12px; 
+  text-decoration:underline; 
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+#link2 {
+  color: black;
+  font-size: 12px;
+  position: absolute;
+  text-decoration: underline;
+  top: 0;
+  right: 0;
+}
+#small-logo {
+    height: 20px;
+    }
+</style>
+</html>
+    
+    
