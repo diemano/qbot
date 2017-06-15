@@ -1,0 +1,211 @@
+<html>
+  <head>
+    <title>qBot Search bot for Slack</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+      <style>
+          body{
+              background-color: #f6f6f6;
+              font-family: Roboto;
+          }
+          h1{
+              font-family: "Roboto Thin";
+              font-size: 40px;
+              color: #5b5d6e;
+          }
+          h2{
+              font-family: "Roboto Thin";
+              font-size: 40px;
+              text-align: left;
+          }
+          .logo{
+              padding: 15px 0;
+          }
+          .header{
+              background-color: #fbc02d;
+          }
+          .btntop{
+              float:right;
+              background-color: transparent;
+              border: 1px solid #424242;
+              margin-top: 35px;
+          }
+          .btntop:hover{
+              background-color: rgba(0,0,0,0.1);
+              border: 1px solid #424242;
+          }
+          .btntop:focus{
+              background-color: rgba(0,0,0,0.1) !important;
+              outline:0 !important;
+          }
+          .btncenter{
+              background-color: #fbc02d;
+              border: 0;
+              padding-bottom:20px;
+              padding-top: 10px;
+              box-shadow: 0px 10px 0px #ffeb3b;
+              width:290px;
+              height:78px;
+              color: white;
+              font-family: "Roboto Medium";
+              font-size: 32px;
+              border-radius: 15px;
+              margin-bottom: 60px;
+          }
+          .btncenter:hover{
+              background-color: #e1a204;
+              color: #ffffff;
+          }
+          .btncenter:active{
+              margin-top: 10px;
+              background-color: #e1a204;
+              margin-bottom: 50px;
+           }
+          .btncenter:focus{
+             background-color: #e1a204 !important;
+             outline:0 !important;
+              color: white !important;
+          }
+          .section1{
+              padding: 80px 8% 60px;
+          }
+          .section2{
+              padding: 80px 8% 60px;
+              background-color: #424242;
+              color: #fff;
+          }
+          .section2 h2{
+              margin-bottom: 40px;
+          }
+          .section2 p{
+              margin-bottom: 20px;
+              font-family: "Roboto Light";
+              font-size: 17px;
+          }
+          .section3{
+              padding: 80px 8% 60px;
+              background-color: #fbc02d;
+              color: #424242;
+          }
+          .section3 h2{
+              margin-bottom: 40px;
+              text-align: center;
+          }
+          .section3 p{
+              margin-bottom: 20px;
+              font-family: "Roboto Light";
+              font-size: 17px;
+              text-align: center;
+          }
+          .box3{
+              background-color: #ffef52;
+              padding: 30px;
+          }
+          .btnBottom{
+              background-color: #424242;
+              border: 0;
+              padding-bottom:20px;
+              padding-top: 10px;
+              box-shadow: 0px 10px 0px #a1a1a1;
+              width:290px;
+              height:78px;
+              color: white;
+              font-family: "Roboto Medium";
+              font-size: 32px;
+              border-radius: 15px;
+              margin-bottom: 60px;
+              margin-top: 37px;
+          }
+          .btnBottom:hover{
+              background-color: #343434;
+              color: #ffffff;
+          }
+          .btnBottom:active{
+              margin-top: 47px;
+              background-color: #343434;
+              margin-bottom: 50px;
+          }
+          .btnBottom:focus{
+              background-color: #343434 !important;
+              outline:0 !important;
+              color: white !important;
+          }
+          .footer1{
+              font-size: 14px;
+              font-family: "Roboto Light";
+              color: #424242;
+              padding: 30px 8% 20px 8%;
+          }
+          .footer1 a{
+              font-family: Roboto;
+              font-weight: bold;
+              color: #fbc02d;
+
+          }
+          .footer1 a:hover{
+              color: #fbc02d;
+              text-decoration: none;
+
+          }
+      </style>
+  </head>
+<body>
+  <div class="container-fluid">
+      <div class="row header">
+          <div class="col-md-6">
+              <img src="logo-final.png" class="left logo">
+          </div>
+          <div class="col-md-6">
+            <button class="btn btn-default btntop text-uppercase"><img src="slack_mark_black1.png">&nbsp;Sign up</button>
+          </div>
+      </div>
+      <div class="row section1">
+          <div class="col-md-6">
+             <h1 class="text-center">qBot's specialty is finding answers to all of your coding questions</h1>
+          </div>
+          <div class="col-md-6">
+              <img src="qbot1.png">
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-md-12">
+              <button class="btn btn-default btncenter center-block text-capitalize"><img src="white-icon1.png">&nbsp;Add to slack</button>
+          </div>
+      </div>
+      <div class="row section2">
+          <div class="col-md-6">
+              <h2>qBot is designed to make your coding queries easier</h2>
+              <p>qBot searches an assortment of qualified sources and curates the most pertinent solutions to your coding questions.</p>
+              <p>qBot will not always find the exact solution to your question, but qBot will save you time from endlessly searching so that you can get on with your coding.</p>
+          </div>
+          <div class="col-md-6">
+              <img src="MainBrowser.png">
+          </div>
+      </div>
+      <div class="row section3">
+          <div class="col-md-6">
+              <h2>Supported Commands</h2>
+              <div class="box3">
+                  <p><strong>/qbot [query] "..."</strong></p>
+                  <p>Searches our database for the best a nswer to your coding question.</p>
+                  <p><strong>/qbot [quick query] "..."</strong></p>
+                  <p>Searches and returns the top 3 queries from google.</p>
+              </div>
+          </div>
+          <div class="col-md-6">
+              <h2>Designed for Slack</h2>
+              <div class="box3">
+                  <p><strong>Made to run seamlessly in the slack environment.</strong></p>
+                  <button class="btn btn-default btnBottom center-block text-capitalize"><img src="white-icon1.png">&nbsp;Add to slack</button>
+              </div>
+          </div>
+      </div>
+      <div class="row footer1">
+          <div class="col-md-6">
+              <p class="text-left"> &copy; 2017 Made By <a href="https://github.com/diemano/qbot">qBotDevs</a> - All Right Reserved</p>
+          </div>
+      </div>
+  </div>
+</body>
+</html>
